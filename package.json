@@ -1,0 +1,26 @@
+{
+  "name": "seconf16",
+  "version": "1.0.0",
+  "description": "Website for Selenium Conf India 2016",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nashjain/seconf16.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nashjain/seconf16/issues"
+  },
+  "homepage": "https://github.com/nashjain/seconf16#readme",
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-contrib-concat": "^0.5.1",
+    "grunt-contrib-cssmin": "^0.14.0",
+    "grunt-contrib-uglify": "^0.11.0",
+    "grunt-contrib-watch": "^0.6.1"
+  }
+}
