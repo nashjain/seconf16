@@ -20,10 +20,6 @@ module.exports = function(grunt) {
             libs: {
                 src: ['libs/jquery.min.js', 'libs/jquery-migrate.min.js', 'libs/mediaelement-and-player.min.js'],
                 dest: 'libs/build/vendor.min.js',
-            },
-            js: {
-                src: ['js/scrollspy.js', 'js/custom.js'],
-                dest: 'js/build/app.js',
             }
         },
         uglify: {

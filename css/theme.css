@@ -14476,7 +14476,7 @@ body > div#page-container {
 
 .mobile-nav-links {
     position: fixed;
-    top: 72px;
+    top: 50px;
     left: 0;
     width: 100%;
     background-color: white;
