@@ -15218,8 +15218,8 @@ video.wp-video-shortcode,
         margin-top: 0;
         font-size: 1.8em;
     }
-    .et_pb_promo_description {
-        margin-top: -20px;
+    .intro-text {
+        font-size: 1em;
     }
 }
 
