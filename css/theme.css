@@ -15188,6 +15188,20 @@ video.wp-video-shortcode,
     padding-top: 0;
 }
 
+.text-center {
+    text-align: center;
+}
+
+.spr-hd {
+    font-size: 1.55em;
+    margin-bottom: 10px;
+}
+
+.entry-content ul.sponsorship-list {
+    list-style-type: none;
+    text-align: center;
+}
+
 @media screen and (max-width: 768px) {
     .schedule-toggler .module-subtitle {
         line-height: 25px;

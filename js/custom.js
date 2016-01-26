@@ -1,5 +1,22 @@
 (function($){
 	jQuery.fn.reverse = [].reverse;
+
+	var et_custom = {
+         "ajaxurl": "http:\/\/seleniumconf.wpengine.com\/wp-admin\/admin-ajax.php",
+         "images_uri": "http:\/\/seleniumconf.wpengine.com\/wp-content\/themes\/Divi\/images",
+         "builder_images_uri": "http:\/\/seleniumconf.wpengine.com\/wp-content\/themes\/Divi\/includes\/builder\/images",
+         "et_load_nonce": "f5b9547a06",
+         "subscription_failed": "Please, check the fields below to make sure you entered the correct information.",
+         "fill": "Fill",
+         "field": "field",
+         "invalid": "Invalid email",
+         "captcha": "Captcha",
+         "prev": "Prev",
+         "previous": "Previous",
+         "next": "Next"
+     };
+
+
 	$.et_pb_simple_slider = function(el, options) {
 		var settings = $.extend( {
 			slide         			: '.et-slide',				 	// slide class
