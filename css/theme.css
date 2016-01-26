@@ -15154,6 +15154,40 @@ video.wp-video-shortcode,
     border-bottom: 2px solid #939389;
 }
 
+.spr-btn {
+    color: #33B14A;
+    font-weight: 400;
+    font-size: 1.2em;
+}
+
+.spr-btn:hover {
+    background-color: rgba(0,0,0,.025);
+}
+
+.entry-content .pricing-table {
+    border-color: #ccc;
+    margin: 0 auto 15px;
+    width: 70%;
+}
+
+.pricing-table tr td {
+    border-color: #ccc;
+}
+
+.reg-text {
+    margin: 30px auto 0;
+    width: 70%;
+}
+
+.intro-text {
+    font-size: 1.15em;
+    width: 70%;
+}
+
+.intro-wrapper-vd {
+    padding-top: 0;
+}
+
 @media screen and (max-width: 768px) {
     .schedule-toggler .module-subtitle {
         line-height: 25px;
@@ -15161,4 +15195,54 @@ video.wp-video-shortcode,
         margin-top: 20px;
         width: 92%;
     }
+
+    .entry-content .pricing-table, .reg-text {
+        width: 100%;
+    }
+
+    .pricing-table tr td {
+        padding: 6px;
+    }
+
+    .entry-content thead th, .entry-content tr th {
+        padding: 9px;
+    }
 }
+
+@media screen and (max-width: 646px) {
+    .intro-text {
+        width: 100%;
+    }
+    .main-heading {
+        margin-bottom: 0;
+        margin-top: 0;
+        font-size: 1.8em;
+    }
+    .et_pb_promo_description {
+        margin-top: -20px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
