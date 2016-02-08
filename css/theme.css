@@ -15232,3 +15232,30 @@ video.wp-video-shortcode,
         font-size: 1em;
     }
 }
+
+.call-for-proposal h3 {
+    margin-top: 25px;
+    margin-bottom: 5px;
+    font-weight: 300;
+    font-size: 24px;
+}
+
+.call-for-proposal p {
+    text-align: left;
+}
+
+.call-for-proposal ol {
+    text-align: left;
+    margin-top: 20px;
+}
+
+.call-for-proposal .et_pb_promo_button, .review-process .et_pb_promo_button {
+    text-decoration: none;
+    font-weight: 300;
+    margin-top: 30px;
+}
+
+.review-process a {
+    color: #ffffff;
+    text-decoration: underline;
+}
