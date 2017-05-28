@@ -19,11 +19,11 @@ module.exports = function(grunt) {
         concat: {
             libs: {
                 src: ['libs/jquery.min.js', 'libs/jquery-migrate.min.js', 'libs/mediaelement-and-player.min.js'],
-                dest: 'libs/build/vendor.min.js',
+                dest: 'libs/build/vendor.min.js'
             },
             js: {
                 src: ['js/scrollspy.js', 'js/custom.js'],
-                dest: 'js/build/app.js',
+                dest: 'js/build/app.js'
             }
         },
         uglify: {
@@ -39,4 +39,5 @@ module.exports = function(grunt) {
     grunt.loadNpmTasks('grunt-contrib-concat');
     grunt.loadNpmTasks('grunt-contrib-uglify');
     grunt.registerTask('default', ['watch']);
+    grunt.registerTask('build', ['cssmin', 'concat', 'uglify']);
 };
